@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2 Expert - Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo do CS2 Expert" class="logo">
+        <h1>CS2 Expert - Cadastro</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="armas.html">Armas</a></li>
+                <li><a href="estrategias.html">Estratégias</a></li>
+                <li><a href="mapas.html">Mapas</a></li>
+                <li><a href="login.html" class="button">Login</a></li> <!-- Botão de login -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="register-form">
+            <h2>Crie sua conta</h2>
+            <form action="dashboard.html" method="POST">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+            <p>Já tem uma conta? <a href="login.html">Entre aqui</a></p> <!-- Link para login -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CS2 Expert</p>
+    </footer>
+</body>
+</html>
